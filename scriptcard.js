@@ -29,13 +29,13 @@ new Vue({
     return {
       currentCardBackground: Math.floor(Math.random()* 25 + 1), // just for fun :D
       cardName: "Ozon Банк",
-      cardNumber: "2204 2402 4576 7902",
+      cardNumber: "2204 3203 2678 8140",
       cardMonth: "50",
       cardYear: "",
       cardCvv: "50",
       minCardYear: new Date().getFullYear(),
-      amexCardMask: "2204 2402 4576 7902",
-      otherCardMask: "2204 2402 4576 7902",
+      amexCardMask: "2204 3203 2678 8140",
+      otherCardMask: "2204 3203 2678 8140",
       cardNumberTemp: "",
       isCardFlipped: false,
       focusElementStyle: null,
